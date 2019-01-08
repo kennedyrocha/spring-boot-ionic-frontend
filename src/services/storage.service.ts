@@ -21,7 +21,7 @@ export class StorageService {
             localStorage.removeItem(STORAGE_KEYS.localUser);
         }
         else {
-            localStorage.setItem(STORAGE_KEYS.localUser, JSON.stringify(obj.token));
+            localStorage.setItem(STORAGE_KEYS.localUser, JSON.stringify(obj));
         }
     }
 }
